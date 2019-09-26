@@ -1,0 +1,40 @@
+doronbruder
+
+204917629
+
+Doron Bruder
+
+ Websites:
+‪"‬Stackoverflow"
+"wikipadia"
+
+No special comments
+
+This project includes the implements of the following classes:
+
+Node: 
+A class represent a Node of a binary a decision tree that represents either a
+    symptom or an illness if it's a leaf
+
+Diagnose: 
+    A class represent an automatic digonser that using a decision tree  can do some diagnostic actions
+    when give it symptoms and ilnesses
+    
+And  the implementation of the following functions:
+
+(1) Buid_tree: 
+  This function create a tree which its nodes are the given
+ symptoms and its leafs are the illnesses that are
+    most statistically suitable among illnesses 
+in the records that their symptoms includes the data of
+    all the nodes which we said "Yes" and not includes all the nodes we said "No
+
+(2‪)‬ Optimal_tree:
+‪This function returns the tree with highest chances of‬
+‪    success while asking of exactly k symptoms from symptoms when k is equal to "depth‬"
+   
+And others helper functions and method
+
+
+
+ 
